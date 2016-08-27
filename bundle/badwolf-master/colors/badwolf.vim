@@ -31,11 +31,13 @@
 " Supporting code -------------------------------------------------------------
 " Preamble {{{
 
+
+
+let g:badwolf_darkgutter = 0
 if !has("gui_running") && &t_Co != 88 && &t_Co != 256
     finish
 endif
 
-set background=dark
 
 if exists("syntax_on")
     syntax reset
@@ -159,6 +161,8 @@ if exists('g:badwolf_darkgutter') && g:badwolf_darkgutter
 else
     let s:gutter = 'blackgravel'
 endif
+
+let g:badwolf_tabline = 1
 
 if exists('g:badwolf_tabline')
     if g:badwolf_tabline == 0
