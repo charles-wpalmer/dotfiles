@@ -4,6 +4,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+
 " Keyboard remappings
 " Can be typed even faster than jj.
 :imap jk <Esc>
@@ -44,7 +45,7 @@ inoremap <F7> <ESC>:cprev<CR>
 inoremap <F8> <ESC>:cnext<CR>
 
 syntax enable
-colorscheme seoul256
+colorscheme srcery
 set list
 hi Normal ctermfg=252 ctermbg=NONE
 set listchars=tab:▸\ ,eol:¬
