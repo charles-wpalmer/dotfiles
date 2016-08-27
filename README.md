@@ -11,7 +11,7 @@ git clone https://github.com/chp38/.vim.git .vim
 cd .vim 
 git submodule init
 git submodule update
-rt TERM=xterm-256color
+export TERM=xterm-256color
 
 ```
 

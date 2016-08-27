@@ -45,7 +45,7 @@ inoremap <F7> <ESC>:cprev<CR>
 inoremap <F8> <ESC>:cnext<CR>
 
 syntax enable
-colorscheme badwolf
+colorscheme srcery
 set list
 hi Normal ctermfg=252 ctermbg=NONE
 set listchars=tab:▸\ ,eol:¬
