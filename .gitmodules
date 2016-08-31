@@ -61,3 +61,6 @@
 [submodule "bundle/vim-obsidian"]
 	path = bundle/vim-obsidian
 	url = https://github.com/trevorrjohn/vim-obsidian.git
+[submodule "bundle/vim-buddy"]
+	path = bundle/vim-buddy
+	url = https://github.com/DrSpatula/vim-buddy.git
