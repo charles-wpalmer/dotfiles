@@ -64,3 +64,6 @@
 [submodule "bundle/vim-buddy"]
 	path = bundle/vim-buddy
 	url = https://github.com/DrSpatula/vim-buddy.git
+[submodule "bundle/vim-railscasts-theme"]
+	path = bundle/vim-railscasts-theme
+	url = https://github.com/jpo/vim-railscasts-theme.git
