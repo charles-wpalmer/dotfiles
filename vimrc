@@ -46,7 +46,7 @@ inoremap <F7> <ESC>:cprev<CR>
 inoremap <F8> <ESC>:cnext<CR>
 
 syntax enable
-colorscheme srcery
+colorscheme tender
 set list
 hi Normal ctermfg=252 ctermbg=NONE
 set listchars=tab:▸\ ,eol:¬
