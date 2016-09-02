@@ -6,6 +6,8 @@ filetype plugin indent on
 
 set t_Co=256
 
+let base16colorspace=256 
+
 " Keyboard remappings
 " Can be typed even faster than jj.
 :imap jk <Esc>
@@ -46,7 +48,7 @@ inoremap <F7> <ESC>:cprev<CR>
 inoremap <F8> <ESC>:cnext<CR>
 
 syntax enable
-colorscheme tender
+colorscheme darkblue
 set list
 hi Normal ctermfg=252 ctermbg=NONE
 set listchars=tab:▸\ ,eol:¬
