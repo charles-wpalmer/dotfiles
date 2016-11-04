@@ -48,7 +48,7 @@ inoremap <F7> <ESC>:cprev<CR>
 inoremap <F8> <ESC>:cnext<CR>
 
 syntax enable
-colorscheme darkblue
+colorscheme base16-tomorrow-night
 set list
 hi Normal ctermfg=252 ctermbg=NONE
 set listchars=tab:▸\ ,eol:¬

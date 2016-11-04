@@ -73,3 +73,12 @@
 [submodule "bundle/base16-vim"]
 	path = bundle/base16-vim
 	url = https://github.com/chriskempson/base16-vim.git
+[submodule "bundle/vorange"]
+	path = bundle/vorange
+	url = https://github.com/Marfisc/vorange.git
+[submodule "bundle/vim-hybrid"]
+	path = bundle/vim-hybrid
+	url = https://github.com/scwood/vim-hybrid.git
+[submodule "bundle/vim-phpcolors"]
+	path = bundle/vim-phpcolors
+	url = https://github.com/modess/vim-phpcolors.git
