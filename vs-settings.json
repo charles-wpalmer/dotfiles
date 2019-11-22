@@ -1,0 +1,32 @@
+{
+    "editor.fontSize": 11,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onWindowChange",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "phpfmt.php_bin": "/usr/bin/php",
+    "phpfmt.passes": [
+        "StripExtraCommaInArray"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
+    "php-cs-fixer.lastDownload": 1569236957101,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.default.includePath": [
+        "/usr/local/include/**",
+        "~/Repositories/**",
+        "~/Repositories/onscreenid/**",
+        "~/Repositories/libfpcommon/**"
+    ],
+    "workbench.colorTheme": "Solarized Dark",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'",
+    "terminal.integrated.rendererType": "canvas",
+    "workbench.editor.showTabs": false,
+    "C_Cpp.default.cppStandard": "c++11",
+    "window.zoomLevel": 0,
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    }
+}
